@@ -14,5 +14,7 @@ namespace IdentityService.Services
         Task<UserDto?> GetPatientDoctorAsync(string patientId);
         Task<bool> DeactivateUserAsync(string userId);
         Task<bool> UpdateUserAsync(string userId, RegisterUserDto model);
+
+       
     }
 }
